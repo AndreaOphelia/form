@@ -1,0 +1,59 @@
+label,
+input,
+button {
+  display: block;
+  margin: 7px;
+  padding: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-large;
+}
+
+p {
+  font-size: x-large;
+}
+
+input {
+  background-color: rgb(200, 231, 231);
+  border-radius: 7px;
+}
+
+html {
+  background-color: aliceblue;
+  color: rgb(81, 91, 91);
+}
+
+button {
+  background-color: #79bda2;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* <form>
+<p>Sign up</p>
+<label for="full-name">Fulde navn</label>
+<input id="full-name" name="fname" type="text" />
+
+<label for="email">E-mail</label>
+<input id="email" name="email" type="email" />
+<label for="email"> Gentag e-mail</label>
+<input id="email" name="email" type="email" />
+<label for="tel"> Telefon nummer</label>
+<input id="tel" name="tel" type="tel" />
+
+<div class="form-control">
+  <input type="radio" id="stilling" name="stilling" value="studerende" />
+  <label for="stilling">studerende</label>
+</div>
+<div class="form-control">
+  <input type="radio" id="stilling" name="stilling" value="underviser" />
+  <label for="stilling">underviser</label>
+</div>
+<div class="form-control">
+  <input type="radio" id="stilling" name="stilling" value="random" />
+  <label for="stilling">Jeg har faktisk ikke noget at gøre her</label>
+</div>
+
+<button>Indsend</button> */

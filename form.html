@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css" />
+  </head>
+  <body>
+    <form>
+      <div class="form-felt">
+        <label>
+          E-mail
+          <input type="email" name="email" required />
+        </label>
+        <div class="form-felt">
+          <label>
+            Password
+            <input type="password" name="password" required />
+          </label>
+        </div>
+
+        <button>Login</button>
+      </div>
+    </form>
+
+    <form>
+      <p>Sign up</p>
+      <label for="full-name">Fulde navn</label>
+      <input id="full-name" name="fname" type="text" />
+
+      <label for="email">E-mail</label>
+      <input id="email" name="email" type="email" />
+      <label for="email"> Gentag e-mail</label>
+      <input id="email" name="email" type="email" />
+      <label for="tel"> Telefon nummer</label>
+      <input id="tel" name="tel" type="tel" />
+
+      <div class="form-control">
+        <input type="radio" id="stilling" name="stilling" value="studerende" />
+        <label for="stilling">studerende</label>
+      </div>
+      <div class="form-control">
+        <input type="radio" id="stilling" name="stilling" value="underviser" />
+        <label for="stilling">underviser</label>
+      </div>
+      <div class="form-control">
+        <input type="radio" id="stilling" name="stilling" value="random" />
+        <label for="stilling">Jeg har faktisk ikke noget at gøre her</label>
+      </div>
+
+      <button>Indsend</button>
+    </form>
+  </body>
+</html>
